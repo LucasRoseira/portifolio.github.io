@@ -906,8 +906,15 @@ table a, #comments a{
 
 
 .mySlides {
+<<<<<<< HEAD:assets/layout/styles/css/layout.css
 	margin-left: auto;
 	margin-right: auto;
+=======
+	height: 800px;
+	width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+>>>>>>> fb63ba2b2ba5b1634570506b5e0f5337599de2af:layout/styles/layout.css
 	background-color: powderblue;
 }
 
