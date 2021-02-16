@@ -229,8 +229,9 @@ a, label, input, p {
 .titulo {
 	color: #5f0a5f;
 	font-size: 30px;
-	border-bottom: 5px solid #5f0a5f;
+	border-bottom: 1.5px solid #5f0a5f;
 	text-align: left;
+	text-transform: none !important;
 }
 /* Sidebar */
 .container .sidebar{}
@@ -681,7 +682,7 @@ input:focus, textarea:focus, *:required:focus{
 	color: #D01818;
 }
 
-#topbar div:first-of-type li a:hover{
+#topbar div li a:hover{
 	color: #5f0a5f;
 }
 
