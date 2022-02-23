@@ -71,6 +71,11 @@
 	font-variant: small-caps;
 }
 
+.bgded{background-position:top center; 
+	background-repeat:repeat-x !important;
+	background-size:contain !important;
+}
+
 /* Página de introdução
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{
