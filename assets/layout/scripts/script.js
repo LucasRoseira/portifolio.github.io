@@ -1,5 +1,6 @@
 
-document.getElementById("year").innerHTML = new Date().getFullYear();
+var anoAtual = document.getElementById("year").innerHTML = new Date().getFullYear();
+document.getElementById("idade").innerHTML = anoAtual - 1996;
 
 var slideIndex = 0;
 carousel();
