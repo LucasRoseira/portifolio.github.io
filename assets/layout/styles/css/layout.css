@@ -76,6 +76,12 @@
 	background-size:contain !important;
 }
 
+@media screen and (max-width:752px){ 
+	.bgded {
+	    background-size: cover!important;
+	}
+}
+
 /* Página de introdução
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{
