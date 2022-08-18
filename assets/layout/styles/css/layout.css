@@ -78,8 +78,8 @@
 
 @media screen and (max-width:752px){ 
 	.bgded {
-	    background-size: cover!important;
-	    
+		background-size: cover!important;
+
 	}
 }
 
@@ -159,14 +159,13 @@
 	padding-bottom: 7px !important;
 }
 a, label, input, p {
-	font-size: 20px !important;
+	font-size: 18px !important;
 
 }
 .services{}
 .services article{
 	display: block;
-	padding: 30px;
-	padding-top: 150px;
+	padding-top: 133px;
 }
 .services article *{
 	margin: 0;
@@ -570,7 +569,17 @@ nav ul, nav ol{
 		opacity: 1;
 	}
 
+	img.btmspace-30 {
+		height: 250px;
+		width: 83%;
 
+	}
+
+	img.inspace-10.borderedbox {
+		height: 440px;
+		width: 80%;
+
+	}
 /* Tabelas
 --------------------------------------------------------------------------------------------------------------- */
 table, th, td{
@@ -884,13 +893,14 @@ table a, #comments a{
 		/* Experimental - Needs more testing in different situations, stops double margin when stacking */
 	}
 	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{
-		display: block; 
+		display: grid; 
 		float: none; 
 		width: auto;
 		margin: 0 0 30px 0; 
 		padding: 0;
 
 	}
+
 
 	#topbar{
 		padding-top: 15px; 
@@ -929,6 +939,14 @@ table a, #comments a{
 		padding-bottom: 30px;
 		/* Not neccessary - just looks better */
 	}
+
+
+	img.inspace-10.borderedbox {
+		height: 450px;
+		width: 90%;
+
+	}
+
 }
 
 
@@ -937,6 +955,13 @@ table a, #comments a{
 		margin-bottom: 2px; 
 		padding-right: 0; 
 		border-right: none;
+	}
+
+
+	img.inspace-10.borderedbox {
+		height: 350px;
+		width: 85%;
+
 	}
 }
 
