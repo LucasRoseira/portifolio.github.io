@@ -115,7 +115,7 @@
 
 
 .container{
-	padding: 40px 0;
+	padding: 18px 0;
 }
 
 /* Conteúdo */
@@ -576,9 +576,8 @@ nav ul, nav ol{
 	}
 
 	img.inspace-10.borderedbox {
-		height: 440px;
-		width: 80%;
-
+		height: auto;
+		width: 95%;
 	}
 /* Tabelas
 --------------------------------------------------------------------------------------------------------------- */
@@ -835,6 +834,12 @@ table a, #comments a{
 	.hoc{
 		max-width: 978px;
 	}
+
+
+	img.inspace-10.borderedbox {
+		height: auto;
+		width: 65%;
+	}
 }
 
 /* Dispositivos Mobile
@@ -941,11 +946,6 @@ table a, #comments a{
 	}
 
 
-	img.inspace-10.borderedbox {
-		height: 450px;
-		width: 90%;
-
-	}
 
 }
 
